@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Personal Statement</title>
+    <style>
+        /* CSS styles can be added here or in an external stylesheet */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0 15px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .hero-section {
+            text-align: center;
+            padding: 100px 0;
+            background-color: #f2f2f2;
+        }
+        .hero-section h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        .about-section {
+            padding: 50px 0;
+        }
+        .services-section {
+            padding: 50px 0;
+        }
+        .contact-section {
+            padding: 50px 0;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Name</h1>
+        <p>Personal Statement</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="about" class="about-section">
+            <h2>About Me</h2>
+            <p>Write a brief introduction about yourself, your skills, experience, and interests.</p>
+        </section>
+
+        <section id="services" class="services-section">
+            <h2>Services</h2>
+            <ul>
+                <li>Service 1</li>
+                <li>Service 2</li>
+                <li>Service 3</li>
+            </ul>
+        </section>
+
+        <section id="portfolio" class="portfolio-section">
+            <h2>Portfolio</h2>
+            <div class="portfolio-item">
+                <img src="portfolio-image.jpg" alt="Portfolio Item">
+                <p>Description of Portfolio Item</p>
+            </div>
+            <!-- Add more portfolio items as needed -->
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2>Contact Me</h2>
+            <form action="submit_form.php" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required><br>
+                <input type="email" name="email" placeholder="Your Email" required><br>
+                <textarea name="message" placeholder="Your Message" rows="4" required></textarea><br>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Your Name | Personal Statement Website</p>
+    </footer>
+</body>
+</html>
